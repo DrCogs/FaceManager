@@ -80,3 +80,16 @@ dataset_root/
 | 3    | 重命名人员                 |
 | 4    | 查看数据库概览             |
 | 0    | 退出并保存数据库           |
+
+## 依赖库
+
+本项目依赖以下第三方库：
+
+### SeetaFace6
+- 开源人脸识别算法库（人脸检测 / 关键点 / 识别 / 活体 / 口罩检测等）
+- 开发包下载地址见官方 README：
+  https://github.com/seetafaceengine/SeetaFace6
+
+### OpenCV contrib
+- 需安装带 `contrib` 模块的 OpenCV
+- 下载地址：https://github.com/opencv/opencv_contrib
